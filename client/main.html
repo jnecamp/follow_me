@@ -1,0 +1,32 @@
+<head>
+    <title>Follow Me</title>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyCuxyHOHI3JedazAXGmv2l385aVDgo4Q4s">
+    </script>
+</head>
+
+<body>
+    {{> bootstrapAlerts}}
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class='navbar-brand'>
+                <img src="images/logo.png" alt="In Your Eyes Logo">
+            </div>
+            <div class="navbar-text">
+                Take me to...
+            </div>
+            {{> auto_search_bar}}
+            {{> buttons}}
+        </div>
+    </nav>
+    <div class="well well-sm">
+        <span>
+            <h4 id="displaying-location-text"> You are now at: </h4>
+            <h3 id="displaying-location">Stanford, CA</h3>
+        </span>
+    </div>
+
+    {{> street_view_map}}
+
+
+</body>

@@ -1,0 +1,52 @@
+body {
+    padding: 70pt;
+    overflow: hidden;
+}
+
+.navbar-text {
+    font-size: x-large;
+    padding-left: 40pt;
+}
+
+.form-group .form-control {
+    font-size: x-large;
+    height: auto;
+    width: 400pt
+}
+
+.navbar-btn {
+    height: 34pt;
+}
+
+.navbar.navbar-default .container-fluid .navbar-brand {
+    margin-left: 0;
+}
+
+.navbar-brand {
+    padding: 0pt;
+}   .navbar-brand img {
+        height: 50pt;
+        width: 100pt;
+    }
+
+.navbar-form {
+    padding-left: 0px;
+}
+
+
+.container {
+    height: 100vh;
+}
+
+.follow-me {
+    position: relative;
+    top: -540pt;
+}
+
+#displaying-location {
+    display: inline;
+    color: rgb(117, 117, 255);
+}
+#displaying-location-text {
+    display: inline;
+}
